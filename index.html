@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LuxAi - Innovating the Future</title>
+    <link rel="canonical" href="https://luxai.co.za/home">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <a href="index.html"></a>
+            <img src="WebImages/Logo.jpg" alt="LuxAi Logo" class="logo-img">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="demoTeam.html">Team</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-overlay"></div>
+        <video autoplay muted loop id="hero-video">
+            <source src="WebImages/Screen Recording 2025-02-18 at 14.28.12.mov" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="hero-content">
+            <h1><span class="gold-text">Empowering African Businesses</span><br>with Cutting-Edge AI Solutions</h1>
+            <p>Transforming enterprises across Africa with innovative AI-driven services tailored to your needs.</p>
+            <div class="cta-buttons">
+                <button class="cta-button" onclick="document.getElementById('services').scrollIntoView({behavior: 'smooth'});">Discover Our Services</button>
+                <button class="cta-secondary-button" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'});">Get in Touch</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about-us" class="about-us">
+        <h2>About Us</h2>
+        <div class="about-container">
+            <div class="about-carousel">
+                <div class="about-text active" id="vision">
+                    <h3>Our Vision</h3>
+                    <p>Our vision is to be the leading provider of cutting-edge, innovative solutions that redefine industry standards, drive progress, and create lasting value for our customers and partners.</p>
+                </div>
+                <div class="about-text" id="mission">
+                    <h3>Our Mission</h3>
+                    <p>Our mission is to deliver high-quality products that not only meet but exceed industry standards, ensuring reliability, efficiency, and innovation. We are committed to creating meaningful value for our customers by understanding their needs, enhancing their experiences, and providing solutions that drive growth and long-term success.</p>
+                </div>
+                <div class="about-text" id="values">
+                    <h3>Our Values</h3>
+                    <p>We are committed to upholding Integrity, striving for Excellence, and driving Innovation in everything we do. Integrity guides our decisions, ensuring trust and transparency. Excellence pushes us to consistently deliver high-quality solutions, while Innovation fuels our ability to create forward-thinking, impactful advancements for our customers and industry.</p>
+                </div>
+                <div class="arrows">
+                    <div class="arrow left" onclick="prevText()">&#10094;</div>
+                    <div class="arrow right" onclick="nextText()">&#10095;</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <!-- Services Section -->
+<section id="services" class="home-services">
+    <h2>Our Services</h2>
+    <div class="home-services-container">
+        <div class="home-service-item">
+            <i class="fas fa-cogs home-service-icon"></i>
+            <h3>Custom AI Integrations</h3>
+            <p>Tailored AI solutions for your business.</p>
+        </div>
+        <div class="home-service-item">
+            <i class="fas fa-robot home-service-icon"></i>
+            <h3>Process Automation</h3>
+            <p>Streamline workflows and increase efficiency.</p>
+        </div>
+        <div class="home-service-item">
+            <i class="fas fa-chart-line home-service-icon"></i>
+            <h3>Data Analytics</h3>
+            <p>Drive smarter decision-making with data.</p>
+        </div>
+        <div class="home-service-item">
+            <i class="fas fa-headset home-service-icon"></i>
+            <h3>AI-Powered Support</h3>
+            <p>Enhance client engagement with AI.</p>
+        </div>
+    </div>
+</section>
+    <!-- Client Logos Section -->
+ <!--  <section id="clients" class="clients">
+        <h2>Our Clients</h2>
+        <div class="clients-container">
+            <img src="WebImages/media24.png" alt="Media24">
+            <img src="client-logo2.png" alt="Client 2">
+            <img src="client-logo3.png" alt="Client 3">
+            <img src="client-logo4.png" alt="Client 4">
+        </div>
+    </section>  -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>We’re here to help. Reach out to us for any inquiries or support.</p>
+        <a href="contact.html" class="cta-button">Get in Touch</a>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog-section">
+        <h2>Latest Insights</h2>
+        <p>Stay updated with the latest trends and innovations in AI.</p>
+        <div class="blog-preview">
+            <!-- Articles will be dynamically inserted here by news.js -->
+        </div>
+       <!-- <a href="blog.html" class="cta-button">View All Posts</a> -->
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2024 LuxAi. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Aorganization%3A98814149&keywords=lux%20ai&origin=RICH_QUERY_SUGGESTION&position=0&searchId=6771efa1-42ff-4ffe-a5b7-ea3ff5fd76fc&sid=JFL&spellCorrectionEnabled=false" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
